@@ -16,9 +16,9 @@ int main(int argc, char** argv) {
   tina.shape("SQUARE");
   tina.width(2);
   tina.speed(TS_FASTEST);
-  for (int i = 0; i < 1000; i++) {
-    tina.forward(1);
-    tina.right(1);
+  for (int i = 0; i < 360; i++) {
+    tina.forward(5);
+    tina.right(5);
   }
   //add code above this line
   
